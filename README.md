@@ -4,7 +4,7 @@ Vercel: [https://nextjs-dashboard-six-tau-86.vercel.app/]
 
 ## Progress
 
-[https://nextjs.org/learn/dashboard-app/fetching-data]
+[https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering]
 
 ## Packages
 
