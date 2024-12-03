@@ -4,7 +4,7 @@ Vercel: [https://nextjs-dashboard-six-tau-86.vercel.app/]
 
 ## Progress
 
-[https://nextjs.org/learn/dashboard-app/partial-prerendering]
+[https://nextjs.org/learn/dashboard-app/mutating-data]
 
 ## Packages
 
@@ -12,6 +12,8 @@ Vercel: [https://nextjs-dashboard-six-tau-86.vercel.app/]
 pnpm i @vercel/postgres
 // To resolve compatibility issue with PPR
 pnpm i next@canary
+// Debouncing
+pnpm i use-debounce
 ```
 
 ## Next.js App Router Course - Starter
