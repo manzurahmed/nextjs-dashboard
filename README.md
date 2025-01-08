@@ -4,7 +4,7 @@ Vercel: [https://nextjs-dashboard-six-tau-86.vercel.app/]
 
 ## Progress
 
-[https://nextjs.org/learn/dashboard-app/adding-authentication]
+[https://nextjs.org/learn/dashboard-app/adding-metadata]
 
 ## Packages
 
@@ -14,8 +14,14 @@ pnpm i @vercel/postgres
 pnpm i next@canary
 // Debouncing
 pnpm i use-debounce
-// 
+// NextAuth.js
+pnpm i next-auth@beta
+// Generate a secret key for your application. This key is used to encrypt cookies, ensuring the security of user sessions.
+openssl rand -base64 32
 ```
+
+## Next.js starter templates and themes
+[https://vercel.com/templates/next.js]
 
 ## ESLint
 

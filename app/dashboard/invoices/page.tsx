@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Pagination from '@/app/ui/invoices/pagination';
 import Search from '@/app/ui/search';
 import Table from '@/app/ui/invoices/table';
@@ -6,6 +7,12 @@ import { lusitana } from '@/app/ui/fonts';
 import { fetchInvoicesPages } from '@/app/lib/data';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
+
+// C15
+// https://nextjs.org/docs/app/api-reference/functions/generate-metadata
+export const metadata: Metadata = {
+	title: 'Invoices',
+};
 
 export default async function Page(props: {
 	searchParams?: Promise<{
